@@ -1,0 +1,19 @@
+/// Escriba un programa que lea dos números enteros y realice el cálculo de la suma, resta, 
+/// multiplicación y división entre ambos valores. Los resultados deben mostrarse por pantalla.
+
+
+Algoritmo matematica2numeros
+	Escribir "Este programa suma, resta, multiplica y divide";
+	Definir n1, n2 Como Entero
+	Escribir "Digite el primer número";
+	Leer n1;
+	Escribir "Digite el segundo número";
+	Leer n2;
+	//PROCESO
+	
+	Escribir "La suma de ",n1," + ",n2," es: ", n1+n2
+	Escribir "La resta de ",n1," - ",n2," es: ", n1-n2
+	Escribir "La multiplicacion de ",n1," * ",n2," es: ", n1*n2
+	Escribir "La division de ",n1," / ",n2," es: ", n1/n2
+	
+FinAlgoritmo
