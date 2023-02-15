@@ -1,0 +1,31 @@
+/// Escribir un algoritmo en el cual se consulte al usuario que ingrese ¿cómo está el día de hoy? 
+/// (soleado, nublado, lloviendo). A continuación, mostrar por pantalla un mensaje que indique 
+/// "El día de hoy está ?", completando el mensaje con el dato que ingresó el usuario.
+
+
+Algoritmo Misegundoprograma
+	Definir nombre, actividadFavorita Como Caracter
+	Escribir "Ingresa un nombre:"
+	leer nombre
+
+	Escribir "Hola, bienvenido: " (nombre)
+	Escribir "Ingresa tu actividad favorita:"
+	leer actividadFavorita
+	Escribir (nombre) " te mereces un PULSO por tu trabajo colaborativo en el equipo."
+	
+	Definir elClimaEsta Como Entero
+	Definir opc Como Entero
+	Escribir (nombre) " ¿Cómo está el día de Hoy? " 
+	
+	Escribir "Ingrese una opción";
+	Definir soleado, nublado, lluvioso, elDiaDeHoyEsta Como Entero
+	
+	Escribir "El Dia De Hoy Está ";
+	
+	Escribir "1. soleado ";
+	Escribir "2. nublado "; 
+	Escribir "3. lluvioso ";
+	leer opc
+	
+	
+FinAlgoritmo
